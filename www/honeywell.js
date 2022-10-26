@@ -1,6 +1,6 @@
 var execute = require("cordova/exec");
 
-var honeywell = {
+var honeywellEDA = {
     softwareTriggerStart: function () {
         return execute(null, null, 'HoneywellScannerPlugin', 'softwareTriggerStart', []);
     },
@@ -27,4 +27,4 @@ var honeywell = {
     }
 };
 
-module.exports = honeywell;
+module.exports = honeywellEDA;
