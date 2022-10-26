@@ -9,7 +9,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
     <js-module src="www/honeywell.js" name="HoneywellScannerPlugin">
-        <clobbers target="plugins.honeywell" />
+        <clobbers target="plugins.honeywellEDA" />
     </js-module>
 
     <!--android -->
